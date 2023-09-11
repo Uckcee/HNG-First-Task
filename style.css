@@ -1,0 +1,57 @@
+* {
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+body {
+    background-color: rgb(208, 253, 253);
+}
+
+.container {
+    width: 700px;
+    height: auto;
+    margin-left: 23%;
+    margin-top: 10%;
+    padding: 40px;
+    background-color: coral;
+    position: relative;
+}
+
+.slackName p {
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+    margin-left: 300px;
+    position: absolute;
+    top: 70px;
+    
+}
+
+img {
+    height: 20rem;
+    margin-top: 30px;
+    position: relative;
+}
+
+.subContainer {
+    width: inherit;
+    position: absolute;
+    left: 340px;
+    bottom: 150px;
+}
+.row {
+    color: white;
+    font-size: 25px;
+
+}
+
+a {
+    position: absolute;
+    top: 150px;
+    transition: .3s;
+}
+a:hover {
+    opacity: 0.52;
+    letter-spacing: 3px;
+}
